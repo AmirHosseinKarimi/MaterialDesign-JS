@@ -4,7 +4,7 @@
   "description": "Material Design Icons in splitted Javascript files to help import icons dynamically",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node build.js",
     "postinstall": "node build.js",
     "postversion": "node build.js"
   },
