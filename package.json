@@ -1,0 +1,27 @@
+{
+  "name": "mdi-js",
+  "version": "0.0.1",
+  "description": "Material Design Icons in splitted Javascript files to help import icons dynamically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AmirHosseinKarimi/mdi-js.git"
+  },
+  "keywords": [
+    "Material",
+    "Design",
+    "Icons",
+    "mdi",
+    "mdi-js",
+    "mdi-react"
+  ],
+  "author": "Amir hossein Karimi",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AmirHosseinKarimi/mdi-js/issues"
+  },
+  "homepage": "https://github.com/AmirHosseinKarimi/mdi-js#readme"
+}
