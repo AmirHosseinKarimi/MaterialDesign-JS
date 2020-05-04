@@ -2,19 +2,20 @@ const fs = require("fs");
 const lineReader = require("line-reader");
 const rimraf = require("rimraf");
 
+const PackageName = "mdi-standalone-js";
 const mdiFilePath = require.resolve("@mdi/js/mdi.js");
 const buildDir = "./icons";
 
 build = () => {
   console.log("----------------------------------");
-  console.log("[mdi-js] Building icons files");
+  console.log(`[${PackageName}] Building icons files...`);
 
   if (fs.existsSync(buildDir)) {
-    console.log("Deleting old icons...");
+    console.log(`[${PackageName}] Deleting old icons...`);
     rimraf.sync(buildDir);
   }
 
-  console.log("Generating material design icons files...");
+  console.log(`[${PackageName}] Generating material design icons files...`);
 
   fs.mkdirSync(buildDir);
   var generatedIcons = 0;
@@ -32,7 +33,7 @@ build = () => {
     },
     function (err) {
       if (err) throw err;
-      console.log(`${generatedIcons} icons generated.`);
+      console.log(`[${PackageName}] ${generatedIcons} icons generated.`);
       console.log("----------------------------------");
     }
   );
