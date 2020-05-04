@@ -1,6 +1,6 @@
 {
   "name": "mdi-standalone-js",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Material Design Icons path in standalone JS files per icon to help import icons dynamically",
   "main": "index.js",
   "scripts": {
