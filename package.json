@@ -1,7 +1,7 @@
 {
-  "name": "mdi-js",
+  "name": "mdi-standalone-js",
   "version": "0.0.8",
-  "description": "Material Design Icons in splitted Javascript files to help import icons dynamically",
+  "description": "Material Design Icons path in standalone JS files per icon to help import icons dynamically",
   "main": "index.js",
   "scripts": {
     "test": "node build.js",
@@ -17,7 +17,7 @@
     "Design",
     "Icons",
     "mdi",
-    "mdi-js"
+    "@mdi/js"
   ],
   "author": "Amir hossein Karimi",
   "license": "GPL-3.0-or-later",
