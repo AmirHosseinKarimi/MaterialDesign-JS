@@ -1,4 +1,5 @@
-# Material Design JS
+# Material Design JS 
+[![Build Status](https://travis-ci.org/AmirHosseinKarimi/MaterialDesign-js.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![npm](https://img.shields.io/npm/v/mdi-js?color=blue)](https://www.npmjs.com/package/mdi-js)
 
 If you using the [MaterialDesign-JS](https://github.com/Templarian/MaterialDesign-JS) from [Templarian](https://github.com/Templarian), All variables of icons are stored in one file and you can import specific icon.
 
