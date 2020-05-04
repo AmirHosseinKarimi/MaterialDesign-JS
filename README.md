@@ -3,21 +3,21 @@
 
 Note: This package is a dependency of another package, which I will create for React that automatically load the icon.
 
-If you using the [MaterialDesign-JS](https://github.com/Templarian/MaterialDesign-JS) from [Templarian](https://github.com/Templarian), All variables of icons are stored in one file and you can import specific icon.
+If you using the [@mdi/js](https://www.npmjs.com/package/@mdi/js) from [Templarian](https://github.com/Templarian), All variables of icons are stored in one file and you can import specific icon.
 
 But if you want a dynamic import icons, which need when you create a dynamic application, you can not import icons dynamically.
 
-This package read the original files which stored all variables of icons from [MaterialDesign-JS](https://github.com/Templarian/MaterialDesign-JS) and write them in one file per icon.
+This package read the original file(@mdi/js/mdi.js) which stored all variables of icons from [@mdi/js](https://www.npmjs.com/package/@mdi/js) and write them in one JS file per icon.
 So you can also dynamically import icons.
 
 ## Installation
 via npm:
 ```
-npm install mdi-js
+npm install mdi-standalone-js
 ```
 via yarn:
 ```
-yarn add mdi-js
+yarn add mdi-standalone-js
 ```
 
 ## Usage
@@ -35,11 +35,10 @@ import { Icon as MDIcon } from "@mdi/react";
 
 class Icon extends React.Component {
   render() {
-    let icon = require(`mdi-js/icons/${this.props.icon}`).default;
+    let icon = require(`mdi-standalone-js/icons/${this.props.icon}`).default;
     if (!icon) {
-      throw Error(`Could not find mdi-js/icons/${icon}`);
+      throw Error(`Could not find mdi-standalone-js/icons/${icon}`);
     }
-    const iconName = this.props.icon.substr(3);
     return <MDIcon path={icon} />;
   }
 }
