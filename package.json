@@ -1,6 +1,6 @@
 {
   "name": "mdi-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Material Design Icons in splitted Javascript files to help import icons dynamically",
   "main": "index.js",
   "scripts": {
