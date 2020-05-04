@@ -1,5 +1,5 @@
 {
-  "name": "mdi/standalone-js",
+  "name": "materialdesign-js",
   "version": "1.0.0",
   "description": "Material Design Icons path in standalone JS files per icon to help import icons dynamically",
   "main": "index.js",
