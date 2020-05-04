@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AmirHosseinKarimi/mdi-js.git"
+    "url": "git+ssh://git@github.com/AmirHosseinKarimi/MaterialDesign-JS.git"
   },
   "keywords": [
     "Material",
@@ -22,9 +22,9 @@
   "author": "Amir hossein Karimi",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/AmirHosseinKarimi/mdi-js/issues"
+    "url": "https://github.com/AmirHosseinKarimi/MaterialDesign-JS/issues"
   },
-  "homepage": "https://github.com/AmirHosseinKarimi/mdi-js#readme",
+  "homepage": "https://github.com/AmirHosseinKarimi/MaterialDesign-JS#readme",
   "dependencies": {
     "@mdi/js": "^5.1.45",
     "@mdi/react": "^1.4.0",
