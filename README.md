@@ -1,5 +1,5 @@
 # Material Design JS 
-[![Build Status](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS.svg?branch=master)](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS) [![npm](https://img.shields.io/npm/v/mdi-js?color=blue)](https://www.npmjs.com/package/mdi-standalone-js)
+[![Build Status](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS.svg?branch=master)](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS) [![npm](https://img.shields.io/npm/v/mdi-js?color=blue)](https://www.npmjs.com/package/mdi/standalone-js)
 
 Note: This package is a dependency of another package, which I will create for React that automatically load the icon.
 
@@ -13,11 +13,11 @@ So you can also dynamically import icons.
 ## Installation
 via npm:
 ```
-npm install mdi-standalone-js
+npm install mdi/standalone-js
 ```
 via yarn:
 ```
-yarn add mdi-standalone-js
+yarn add mdi/standalone-js
 ```
 
 ## Usage
@@ -35,9 +35,9 @@ import { Icon as MDIcon } from "@mdi/react";
 
 class Icon extends React.Component {
   render() {
-    let icon = require(`mdi-standalone-js/icons/${this.props.icon}`).default;
+    let icon = require(`mdi/standalone-js/icons/${this.props.icon}`).default;
     if (!icon) {
-      throw Error(`Could not find mdi-standalone-js/icons/${icon}`);
+      throw Error(`Could not find mdi/standalone-js/icons/${icon}`);
     }
     return <MDIcon path={icon} />;
   }

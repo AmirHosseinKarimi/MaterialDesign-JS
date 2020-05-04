@@ -2,7 +2,7 @@ const fs = require("fs");
 const lineReader = require("line-reader");
 const rimraf = require("rimraf");
 
-const PackageName = "mdi-standalone-js";
+const PackageName = "mdi/standalone-js";
 const mdiFilePath = require.resolve("@mdi/js/mdi.js");
 const buildDir = "./icons";
 
