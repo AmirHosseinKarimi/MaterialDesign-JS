@@ -1,5 +1,5 @@
 # Material Design JS 
-[![Build Status](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS.svg?branch=master)](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS) [![npm](https://img.shields.io/npm/v/mdi-js?color=blue)](https://www.npmjs.com/package/materialdesign-js)
+[![Build Status](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS.svg?branch=master)](https://travis-ci.com/AmirHosseinKarimi/MaterialDesign-JS) [![npm](https://img.shields.io/npm/v/materialdesign-js?color=blue)](https://www.npmjs.com/package/materialdesign-js)
 
 Note: This package is a dependency of another package, which I will create for React that automatically load the icon.
 
